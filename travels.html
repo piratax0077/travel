@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+
+    <!--JavaScript propio-->
+    <script src="./js/main.js"></script>
+    <title>Viajes</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <header>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="./index.html" class="nav-link">Inicio</a> 
+                    </li>
+                    <li class="nav-item">
+                       <a href="http://franciscorojoweb.netlify.app/" class="nav-link" target="_blank">Sobre mi</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" data-toggle="modal" class="nav-link" data-target="#contacto">Contacto</a> 
+                    </li>
+                    <li  class="nav-item" id="scroll">
+                        <a style="cursor: pointer;" class="nav-link">Scroll hacia abajo</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a href="./travels.html" class="nav-link">Viajes</a>
+                    </li>
+                </ul>
+            </header>
+        </div>
+    </nav>
+    <div class="bodyParallax">
+        <section>
+            <img src="./assets/img/bg.jpg" alt="" id="bg">
+            <img src="./assets/img/moon.png" alt="" id="moon">
+            <img src="./assets/img/mountain.png" alt="" id="mountain">
+            <img src="./assets/img/road.png" alt="" id="road">
+            <p id="text">Viajes</p>
+        </section>
+    </div>
+    <div class="clearfix"></div>
+    <div class="body bodyParallax">
+        <div class="titulosViajes">
+            <h2>Algunos de nuestros servicios</h2>
+        </div>
+        <div class='page'>
+            <div class='content'>
+              <div class='circle'>
+                <div class='circle_title'>
+                  <h2>Great Outdoors</h2>
+                  <h3>Get some fresh air</h3>
+                </div>
+                <div class='circle_inner'>
+                  <div class='circle_inner__layer'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc1.png'>
+                  </div>
+                  <div class='circle_inner__layer'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc3.png'>
+                  </div>
+                  <div class='circle_inner__layer'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc2.png'>
+                  </div>
+                </div>
+                <div class='content_shadow'></div>
+              </div>
+            </div>
+            <div class='content'>
+              <div class='circle'>
+                <div class='circle_title'>
+                  <h2>City Breaks</h2>
+                  <h3>Go somewhere new</h3>
+                </div>
+                <div class='circle_inner'>
+                  <div class='circle_inner__layer'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc4.png'>
+                  </div>
+                  <div class='circle_inner__layer'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc5.png'>
+                  </div>
+                  <div class='circle_inner__layer'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc6.png'>
+                  </div>
+                </div>
+                <div class='content_shadow'></div>
+              </div>
+            </div>
+            <div class='content'>
+              <div class='circle'>
+                <div class='circle_title'>
+                  <h2>Cheap Flights</h2>
+                  <h3>Come fly with me</h3>
+                </div>
+                <div class='circle_inner'>
+                  <div class='circle_inner__layer'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc7.png'>
+                  </div>
+                  <div class='circle_inner__layer'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc8.png'>
+                  </div>
+                  <div class='circle_inner__layer'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pc9.png'>
+                  </div>
+                </div>
+                <div class='content_shadow'></div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!--Galeria de imagenes-->
+<!-- Grid row -->
+<div class="titulosViajes">
+    <h2>Galeria de imagenes</h2>
+</div>
+<div class="row">
+
+    <!-- Grid column -->
+    <div class="col-md-12 d-flex justify-content-center mb-5">
+  
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">All</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">Mountains</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">Sea</button>
+  
+    </div>
+    <!-- Grid column -->
+  
+  </div>
+  <!-- Grid row -->
+  
+  <!-- Grid row -->
+  
+    <div class="gallery" id="gallery">
+  
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="Card image cap">
+        </div>
+        <!-- Grid column -->
+      
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 1">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="Card image cap">
+        </div>
+        <!-- Grid column -->
+      
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 1">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="Card image cap">
+        </div>
+        <!-- Grid column -->
+      
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap">
+        </div>
+        <!-- Grid column -->
+      
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="Card image cap">
+        </div>
+        <!-- Grid column -->
+      
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 1">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="Card image cap">
+        </div>
+        <!-- Grid column -->
+      
+      </div>
+  
+  <!-- Grid row -->
+    <!--Fin de la galeria-->
+
+    <span class="ir-arriba">Ir arriba</span>
+    <!-- Modal -->
+<div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Déjeme un mensaje</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+        <form id="form" action="#">
+            <div class="form-group">
+                <label for="nombre">Ingrese su nombre</label>
+                <input type="text" name="nombre" id="nombre" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email">Ingrese su Email</label>
+                <input type="email" name="email" id="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="comentario">Ingrese su simpatico comentario</label>
+                <textarea name="comentario"  class="form-control" style="overflow: hidden;"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Cerrar</button>
+                <button type="submit" class="btn btn-success btn-sm" >Enviar mensaje</button>
+                </div>
+        </form>
+        </div>
+        
+    </div>
+    </div>
+</div>
+</body>
+</html>
